@@ -2,7 +2,7 @@
 
 A set of utilities for working with data coming from [Strætó.is][straeto].
 
-## Installing
+## Getting ready
 
 To run the utilities, you need to have [Node.js][nodejs] 0.6+, [npm][npmjs] and [CoffeeScript][coffeescript] installed.
 
