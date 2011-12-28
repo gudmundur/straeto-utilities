@@ -25,7 +25,7 @@ To convert ISN93 coordinates from Strætó, export the entire data file to csv, 
 
 Currently I'm working on getting confirmation for that the data I've obtained from Strætó is indeed public. 
 
-Additionally I'm working out which license Ævar has on his ISN93 conversion code.
+Additionally I'm working out which license Ævar has on his [ISN93 conversion code][isn].
 
 ## Contributions
 
