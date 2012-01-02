@@ -7,6 +7,7 @@ A set of utilities for working with data coming from [Strætó.is][straeto].
 To run the utilities, you need to have [Node.js][nodejs] 0.6+, [npm][npmjs] and [CoffeeScript][coffeescript] installed.
 
 	% git clone http://github.com/gudmundur/straeto-utilities
+	% cd straeto-utilities
 	% npm install
 	
 If you don't have CoffeeScript installed, the setup of this project needs it installed globally
@@ -19,7 +20,7 @@ To convert ISN93 coordinates from Strætó, export the entire data file to csv, 
 
 	% coffee stops
 	Usage: stops input_file.csv output_file.csv
-	% coffee stops stops.csv nicely_formatted_stops.csv
+	% coffee stops.coffee stops.csv nicely_formatted_stops.csv
 	
 ## Caveats
 
