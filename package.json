@@ -1,8 +1,12 @@
 {
-  "name": "straeto-dataconverter",
+  "name": "straeto-utilities",
   "description": "A set of utilities for converting official data from Strætó.is",
   "version": "0.0.1",
   "author": "Guðmundur Bjarni Ólafsson",
+  
+  "engines": {
+    "node": "0.6.x"
+  },
 
   "dependencies": {
     "csv": "0.0.10"
