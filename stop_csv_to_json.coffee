@@ -1,4 +1,5 @@
-csv = require 'csv'
+csv  = require 'csv'
+json = require 'json'
 
 result = []
 
@@ -16,5 +17,5 @@ csv()
     ).on('data', (data, index) ->
         result.push data
     ).on('end', ->
-        console.log result
+        console.log json.stringify result
     )
